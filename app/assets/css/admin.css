@@ -1,0 +1,39 @@
+.drawer {
+    min-width: 250px;
+    border-right: 1px solid #000;
+}
+
+.drawer-logo {
+    font-size: 46px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.drawer-menu {
+    font-size: 20px;
+}
+
+.drawer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.drawer-menu ul li {
+    padding: 10px 10px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.drawer-menu ul li:hover {
+    background-color: black;
+    color: white;
+}
+
+.adminContent {
+    width: calc(100% - 250px);
+}
+
+.searchBar {
+    border: 1px solid #000;
+}

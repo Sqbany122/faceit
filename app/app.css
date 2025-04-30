@@ -1,15 +1,55 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+  --font-sans: "Jersey 10", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
+html, body {
+  height: 100%;
+  margin: 0;
+  letter-spacing: 3px;
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+.pageContent {
+  height: 100%;
+}
+
+.welcomeMainTitle {
+  text-align: center;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.welcomeSecondTitle {
+  text-align: center;
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.startButton {
+  border: solid 2px transparent;
+  transition: all 0.2s ease-in-out;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.startButton:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+}
+
+.searchBar {
+  border: solid 2px transparent;
+  border-color: #000;
+  font-size: 20px;
+}
+
+.playerNickname {
+  font-size: 36px;
+}
+
+.playerTabItem {
+
 }
